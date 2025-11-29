@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tim Gatzke | Full Stack Developer",
-  description: "Tim Gatzke | Full Stack Developer",
+  title: "Shivam Singh | Data Science Student & Aspiring Data Scientist",
+  description: "Shivam Singh - BSc Data Science student specializing in Machine Learning, Data Analytics, and Predictive Modeling. Explore my portfolio showcasing projects in ML, Python, R, and Data Visualization.",
 };
 
 export default function RootLayout({
