@@ -10,16 +10,16 @@ export default function Home() {
       <div className="gap-5 grid grid-cols-4 lg:grid-cols-3 auto-rows-min">
         {/* Profile Image Section */}
         <AnimatedCard
-          className="col-span-1 lg:col-start-3 lg:row-start-1 flex justify-center items-center overflow-hidden bg-gradient-to-br from-blue-900/30 to-purple-900/30 backdrop-blur-sm"
+          className="col-span-2 lg:col-span-1 lg:col-start-3 lg:row-span-2 lg:row-start-1 flex justify-center items-center overflow-hidden bg-gradient-to-br from-blue-900/30 to-purple-900/30 backdrop-blur-sm"
           animationDelay={100}
         >   
-          <div className="relative w-64 h-64 rounded-lg overflow-hidden border-2 border-blue-500/30 shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105">
+          <div className="relative w-full h-full max-w-md max-h-md rounded-lg overflow-hidden border-2 border-blue-500/30 shadow-lg shadow-blue-500/20 hover:shadow-blue-500/40 transition-all duration-300 hover:scale-105 p-4">
             <Image
               src="/shivam.jpg"
               alt="Shivam Singh"
-              width={256}
-              height={256}
-              className="w-full h-full object-cover"
+              width={400}
+              height={400}
+              className="w-full h-full object-cover rounded-lg"
             />
           </div>
         </AnimatedCard>
